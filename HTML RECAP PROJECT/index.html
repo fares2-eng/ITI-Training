@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Personal Portfolio HTML Project">
+    <title>My Portfolio</title>
+    <link rel="icon" href="images/profile-photo.jpg">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h2>Fares Portfolio</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#courses">Courses</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+
+        <hr>
+
+    </header>
+
+    <main>
+
+        <!-- About -->
+        <section id="about">
+
+            <h1>Welcome To My Portfolio</h1>
+
+            <p>
+                Hello! My name is <strong>Fares.</strong>
+                I am an <i>Computer Science</i> student and I love learning
+                <mark>Front-End Development.</mark>
+                <br>
+                My goal is to become a professional Full Stack .NET Developer.
+            </p>
+
+            <img src="images/profile-photo.jpg" alt="Personal Profile Picture" width="200">
+
+        </section>
+
+        <hr>
+
+        <!-- Skills -->
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <h3>Technical Skills</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>Git & GitHub</li>
+            </ul>
+
+            <h3>Learning Journey</h3>
+
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn Bootstrap</li>
+                <li>Learn JavaScript</li>
+                <li>Learn React</li>
+            </ol>
+
+            <p>
+                I always try to write
+                <strong>clean</strong>,
+                <em>organized</em>
+                and
+                <mark>semantic HTML</mark>.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Courses -->
+        <section id="courses">
+
+            <h2>My Courses</h2>
+
+            <table border="1">
+
+                <caption>Completed and Current Courses</caption>
+
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>HTML</td>
+                        <td>2 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>3 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">JavaScript</td>
+                        <td>Basics</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>Advanced</td>
+                        <td>In Progress</td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+
+                    <tr>
+                        <td colspan="3">
+                            Total Courses: 3
+                        </td>
+                    </tr>
+
+                </tfoot>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- Gallery -->
+        <section id="gallery">
+
+            <h2>Gallery</h2>
+
+            <figure>
+                <img src="images/image1.jpg" alt="First Project Screenshot" width="250">
+                <figcaption>Project One</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/image2.jpg" alt="Second Project Screenshot" width="250">
+                <figcaption>Project Two</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/image3.jpg" alt="Third Project Screenshot" width="250">
+                <figcaption>Project Three</figcaption>
+            </figure>
+
+        </section>
+
+        <hr>
+
+        <!-- Contact -->
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <div>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="01xxxxxxxxx">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="birthdate">Birth Date</label><br>
+                    <input type="date" id="birthdate" name="birthdate">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="subject">Subject</label><br>
+                    <select id="subject" name="subject">
+                        <option>General </option>
+                        <option>in HTML</option>
+                        <option>in Css</option>
+                        <option>in JS</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+
+                    <p>Preferred Contact Method:</p>
+
+                    <input type="radio" id="email-contact" name="contact-method">
+                    <label for="email-contact">Email</label>
+
+                    <input type="radio" id="phone-contact" name="contact-method">
+                    <label for="phone-contact">Phone</label>
+
+                </div>
+
+                <br>
+
+                <div>
+
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">
+                        I agree to the terms and conditions
+                    </label>
+
+                </div>
+
+                <br>
+
+                <div>
+
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40"
+                        placeholder="Write your message here"></textarea>
+
+                </div>
+
+                <br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- FAQ -->
+        <section id="faq">
+
+            <h2>Frequently Asked Questions</h2>
+
+            <details>
+                <summary>Who are you?</summary>
+                <p>I am a Front-End Developer Student.</p>
+            </details>
+
+            <details>
+                <summary>What technologies do you learn?</summary>
+                <p>HTML, CSS, Bootstrap, JavaScript and React.</p>
+            </details>
+
+            <details>
+                <summary>Can I contact you?</summary>
+                <p>Yes, you can use the contact form above.</p>
+            </details>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <address>
+            Email: fareselsheikh34@gmail.com
+            <br>
+            Egypt
+        </address>
+
+        <p>
+            &copy; 2026 My Portfolio.&nbsp;All Rights Reserved.
+        </p>
+
+        <p>
+            <a href="https://github.com/fares2-eng" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/fares-samieh-el-sheikh-9208a8405" target="_blank">LinkedIn</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
