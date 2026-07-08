@@ -1,0 +1,32 @@
+HTML (HyperText Markup Language)
+
+HTML is the standard language used to create web pages. It provides the structure of a webpage using different elements called tags.
+
+Main Features:
+- Easy to learn.
+- Supported by all web browsers.
+- Forms the structure of every website.
+- Works with CSS for styling and JavaScript for interactivity.
+
+Common HTML Tags:
+<html>     Root element.
+<head>     Contains page information.
+<title>    Page title.
+<body>     Visible page content.
+<h1>-<h6> Headings.
+<p>        Paragraph.
+<a>        Link.
+<img>      Image.
+<div>      Division.
+<span>     Inline container.
+<ul>, <ol>, <li> Lists.
+<table>    Table.
+<form>     Form.
+<input>    Input field.
+<button>   Button.
+<select>   Dropdown list.
+<textarea> Multi-line text field.
+<header>, <nav>, <section>, <article>, <footer> Semantic elements.
+
+Summary:
+HTML is the foundation of web development. It creates the structure of a webpage, while CSS handles the design and JavaScript adds functionality.
